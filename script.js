@@ -100,7 +100,7 @@ function initAnimations() {
     }, observerOptions);
 
     // Observe elements for animation
-    const animateElements = document.querySelectorAll('.story-card, .category-card, .about-content, .contact-content');
+    const animateElements = document.querySelectorAll('.story-card, .about-content, .contact-content');
     animateElements.forEach(el => {
         observer.observe(el);
     });
@@ -108,7 +108,7 @@ function initAnimations() {
     // Add animation classes to CSS
     const style = document.createElement('style');
     style.textContent = `
-        .story-card, .category-card, .about-content, .contact-content {
+        .story-card, .about-content, .contact-content {
             opacity: 0;
             transform: translateY(30px);
             transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
