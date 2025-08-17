@@ -100,7 +100,7 @@ function initAnimations() {
     }, observerOptions);
 
     // Observe elements for animation
-    const animateElements = document.querySelectorAll('.story-card, .category-card, .tour-card, .about-content, .contact-content');
+    const animateElements = document.querySelectorAll('.story-card, .category-card, .about-content, .contact-content');
     animateElements.forEach(el => {
         observer.observe(el);
     });
@@ -108,7 +108,7 @@ function initAnimations() {
     // Add animation classes to CSS
     const style = document.createElement('style');
     style.textContent = `
-        .story-card, .category-card, .tour-card, .about-content, .contact-content {
+        .story-card, .category-card, .about-content, .contact-content {
             opacity: 0;
             transform: translateY(30px);
             transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
@@ -241,7 +241,6 @@ function initParallaxEffects() {
 // Image gallery functionality
 function initImageGalleries() {
     const storyCards = document.querySelectorAll('.story-card');
-    const tourCards = document.querySelectorAll('.tour-card');
     
     // Add click handlers for story cards
     storyCards.forEach(card => {
@@ -251,20 +250,6 @@ function initImageGalleries() {
             
             // You can implement a modal or navigation to story detail page here
             console.log(`Opening story: ${title} (${category})`);
-        });
-    });
-    
-    // Add click handlers for tour cards
-    tourCards.forEach(card => {
-        const overlay = card.querySelector('.tour-overlay');
-        const button = overlay.querySelector('.btn-primary');
-        
-        button.addEventListener('click', function(e) {
-            e.stopPropagation();
-            const title = card.querySelector('h3').textContent;
-            
-            // You can implement virtual tour functionality here
-            console.log(`Opening virtual tour: ${title}`);
         });
     });
 }
