@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxury Stories & Insights | Exclusive Narratives</title>
-    <meta name="description" content="Discover exclusive stories, insights, and immersive experiences. A luxury platform for sophisticated storytelling and curated content.">
+    <title>VoxVeritas | Nature's Stories & Insights</title>
+    <meta name="description" content="Discover exclusive nature stories, insights, and immersive experiences. A luxury platform for sophisticated storytelling and curated content.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Cinzel:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>LUXE<span class="gold">.</span></h2>
+                <h2>Vox<span class="gold">Veritas</span></h2>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item dropdown">
@@ -65,14 +65,12 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-video">
-            <video autoplay muted loop>
-                <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
-            </video>
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop" alt="Mountain Landscape">
         </div>
         <div class="hero-overlay">
             <div class="hero-content">
-                <h1 class="hero-title">Where Stories<br>Become <span class="gold">Legends</span></h1>
-                <p class="hero-subtitle">Immerse yourself in exclusive narratives that transcend the ordinary</p>
+                <h1 class="hero-title">Where Nature<br>Meets <span class="gold">Truth</span></h1>
+                <p class="hero-subtitle">Immerse yourself in exclusive nature narratives that reveal the world's hidden stories</p>
                 <div class="hero-buttons">
                     <button class="btn-primary">Explore Stories</button>
                     <button class="btn-secondary">Watch Trailer</button>
@@ -84,17 +82,196 @@
         </div>
     </section>
 
-    <!-- Featured Stories Section -->
+    <!-- Featured Nature Section -->
     <section class="featured-stories">
         <div class="container">
             <div class="section-header">
-                <h2>Featured Stories</h2>
-                <p>Curated narratives that captivate and inspire</p>
+                <h2>Nature's Wonders</h2>
+                <p>Discover the world's most breathtaking natural landscapes</p>
             </div>
             <div class="stories-grid">
                 <article class="story-card featured">
                     <div class="story-image">
-                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" alt="Mountain Adventure">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" alt="Mountain Peaks">
+                        <div class="story-overlay">
+                            <span class="category">Mountains</span>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <h3>The Silent Peaks</h3>
+                        <p>Majestic mountain ranges that touch the sky, where silence speaks louder than words...</p>
+                        <button class="btn-text">Explore <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+                <article class="story-card">
+                    <div class="story-image">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600" alt="Forest Canopy">
+                        <div class="story-overlay">
+                            <span class="category">Forests</span>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <h3>Whispers of the Forest</h3>
+                        <p>Ancient trees hold stories older than civilization itself...</p>
+                        <button class="btn-text">Explore <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+                <article class="story-card">
+                    <div class="story-image">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" alt="Ocean Waves">
+                        <div class="story-overlay">
+                            <span class="category">Oceans</span>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <h3>Ocean's Embrace</h3>
+                        <p>Where the endless blue meets the horizon, secrets of the deep remain untold...</p>
+                        <button class="btn-text">Explore <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nature Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Nature</h2>
+                <p>Discover the diverse landscapes that shape our world</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card" data-category="landscapes">
+                    <div class="category-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Landscapes</h3>
+                    <p>From towering peaks to rolling hills, nature's grandest displays</p>
+                    <ul class="category-list">
+                        <li>Mountains</li>
+                        <li>Valleys</li>
+                        <li>Deserts</li>
+                        <li>Plains</li>
+                        <li>Plateaus</li>
+                        <li>Canyons</li>
+                    </ul>
+                </div>
+                <div class="category-card" data-category="ecosystems">
+                    <div class="category-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Ecosystems</h3>
+                    <p>Complex webs of life that sustain our planet's biodiversity</p>
+                    <ul class="category-list">
+                        <li>Forests</li>
+                        <li>Oceans</li>
+                        <li>Wetlands</li>
+                        <li>Grasslands</li>
+                        <li>Arctic</li>
+                        <li>Rainforests</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our Mission</h2>
+                    <p class="lead">We believe in the power of nature to reveal truth and connect humanity to the world's most profound stories.</p>
+                    <p>Founded with a vision to create the most exclusive platform for nature storytelling, VoxVeritas has become a sanctuary for those who seek truth through the lens of our natural world. Our curated collection represents the pinnacle of environmental storytelling excellence.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Stories</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Readers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Explorers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Mountain Landscape">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Tours Section -->
+    <section id="galleries" class="virtual-tours">
+        <div class="container">
+            <div class="section-header">
+                <h2>Virtual Nature Tours</h2>
+                <p>Immerse yourself in the world's most stunning natural environments</p>
+            </div>
+            <div class="tours-grid">
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Mountain Range">
+                        <div class="tour-overlay">
+                            <button class="btn-primary">Explore Mountains</button>
+                        </div>
+                    </div>
+                    <h3>Mountain Ranges</h3>
+                    <p>Discover the world's most majestic peaks and valleys</p>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600" alt="Forest">
+                        <div class="tour-overlay">
+                            <button class="btn-primary">Explore Forests</button>
+                        </div>
+                    </div>
+                    <h3>Ancient Forests</h3>
+                    <p>Journey through Earth's oldest and most diverse ecosystems</p>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" alt="Ocean">
+                        <div class="tour-overlay">
+                            <button class="btn-primary">Explore Oceans</button>
+                        </div>
+                    </div>
+                    <h3>Ocean Depths</h3>
+                    <p>Experience the mysterious and beautiful underwater world</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Join the Circle</h2>
+                <p>Subscribe for exclusive insights and early access to our latest nature stories</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories Section -->
+    <section id="stories" class="stories-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Stories</h2>
+                <p>Immersive narratives that transport you to new worlds</p>
+            </div>
+            <div class="stories-grid">
+                <article class="story-card">
+                    <div class="story-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Mountain Adventure">
                         <div class="story-overlay">
                             <span class="category">Adventure</span>
                         </div>
@@ -107,27 +284,27 @@
                 </article>
                 <article class="story-card">
                     <div class="story-image">
-                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600" alt="Urban Mystery">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600" alt="Forest Mystery">
                         <div class="story-overlay">
                             <span class="category">Mystery</span>
                         </div>
                     </div>
                     <div class="story-content">
-                        <h3>Shadows of the City</h3>
-                        <p>In the neon-lit streets, secrets whisper through the night...</p>
+                        <h3>Shadows of the Forest</h3>
+                        <p>In the ancient woods, secrets whisper through the rustling leaves...</p>
                         <button class="btn-text">Read More <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </article>
                 <article class="story-card">
                     <div class="story-image">
-                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600" alt="Nature's Beauty">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" alt="Ocean Romance">
                         <div class="story-overlay">
-                            <span class="category">Nature</span>
+                            <span class="category">Romance</span>
                         </div>
                     </div>
                     <div class="story-content">
-                        <h3>Whispers of the Forest</h3>
-                        <p>Ancient trees hold stories older than civilization itself...</p>
+                        <h3>Ocean's Heart</h3>
+                        <p>Where the waves meet the shore, love stories are written in the sand...</p>
                         <button class="btn-text">Read More <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </article>
@@ -135,130 +312,65 @@
         </div>
     </section>
 
-    <!-- Categories Section -->
-    <section class="categories">
+    <!-- Blogs Section -->
+    <section id="blogs" class="blogs-section">
         <div class="container">
             <div class="section-header">
-                <h2>Explore Categories</h2>
-                <p>Discover stories that resonate with your soul</p>
+                <h2>Latest Insights</h2>
+                <p>Thought-provoking perspectives on nature and the world around us</p>
             </div>
-            <div class="categories-grid">
-                <div class="category-card" data-category="stories">
-                    <div class="category-icon">
-                        <i class="fas fa-book-open"></i>
-                    </div>
-                    <h3>Stories</h3>
-                    <p>Immersive narratives that transport you to new worlds</p>
-                    <ul class="category-list">
-                        <li>Action</li>
-                        <li>Fantasy</li>
-                        <li>Romance</li>
-                        <li>Mystery</li>
-                        <li>Sci-Fi</li>
-                        <li>Historical</li>
-                    </ul>
-                </div>
-                <div class="category-card" data-category="blogs">
-                    <div class="category-icon">
-                        <i class="fas fa-pen-fancy"></i>
-                    </div>
-                    <h3>Blogs</h3>
-                    <p>Insights and perspectives from thought leaders</p>
-                    <ul class="category-list">
-                        <li>Business</li>
-                        <li>Technology</li>
-                        <li>Space & Science</li>
-                        <li>Travel & Lifestyle</li>
-                        <li>Philosophy & Culture</li>
-                        <li>Sustainability</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>Our Story</h2>
-                    <p class="lead">We believe in the power of storytelling to transform lives and connect souls across time and space.</p>
-                    <p>Founded with a vision to create the most exclusive platform for sophisticated narratives, LUXE has become a sanctuary for those who seek meaning beyond the ordinary. Our curated collection represents the pinnacle of storytelling excellence.</p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">500+</span>
-                            <span class="stat-label">Stories</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">50K+</span>
-                            <span class="stat-label">Readers</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">100+</span>
-                            <span class="stat-label">Authors</span>
+            <div class="blogs-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Environmental Science">
+                        <div class="blog-overlay">
+                            <span class="category">Science</span>
                         </div>
                     </div>
-                </div>
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600" alt="Library Interior">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Virtual Tours Section -->
-    <section id="galleries" class="virtual-tours">
-        <div class="container">
-            <div class="section-header">
-                <h2>Virtual Tours & Galleries</h2>
-                <p>Immerse yourself in interactive experiences</p>
-            </div>
-            <div class="tours-grid">
-                <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600" alt="Art Gallery">
-                        <div class="tour-overlay">
-                            <button class="btn-primary">Explore Gallery</button>
+                    <div class="blog-content">
+                        <h3>Climate Change: The Mountain's Story</h3>
+                        <p>How rising temperatures are reshaping our planet's most iconic landscapes...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">March 15, 2024</span>
+                            <span class="blog-author">Dr. Sarah Chen</span>
+                        </div>
+                        <button class="btn-text">Read Article <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600" alt="Conservation">
+                        <div class="blog-overlay">
+                            <span class="category">Conservation</span>
                         </div>
                     </div>
-                    <h3>Art & Culture</h3>
-                    <p>Discover masterpieces from around the world</p>
-                </div>
-                <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Nature">
-                        <div class="tour-overlay">
-                            <button class="btn-primary">Explore Nature</button>
+                    <div class="blog-content">
+                        <h3>Protecting Our Ancient Forests</h3>
+                        <p>The urgent need to preserve Earth's oldest living ecosystems...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">March 12, 2024</span>
+                            <span class="blog-author">Marcus Rodriguez</span>
+                        </div>
+                        <button class="btn-text">Read Article <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" alt="Ocean Life">
+                        <div class="blog-overlay">
+                            <span class="category">Marine Life</span>
                         </div>
                     </div>
-                    <h3>Natural Wonders</h3>
-                    <p>Journey through Earth's most breathtaking landscapes</p>
-                </div>
-                <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600" alt="Urban">
-                        <div class="tour-overlay">
-                            <button class="btn-primary">Explore Cities</button>
+                    <div class="blog-content">
+                        <h3>The Hidden World Beneath the Waves</h3>
+                        <p>Exploring the mysterious creatures that call our oceans home...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">March 10, 2024</span>
+                            <span class="blog-author">Dr. Emily Watson</span>
                         </div>
+                        <button class="btn-text">Read Article <i class="fas fa-arrow-right"></i></button>
                     </div>
-                    <h3>Urban Landscapes</h3>
-                    <p>Experience the pulse of modern civilization</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Newsletter Section -->
-    <section class="newsletter">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2>Join the Circle</h2>
-                <p>Subscribe for exclusive insights and early access to our latest stories</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Enter your email address" required>
-                    <button type="submit" class="btn-primary">Subscribe</button>
-                </form>
+                </article>
             </div>
         </div>
     </section>
