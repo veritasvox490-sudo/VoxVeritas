@@ -1,7 +1,5 @@
 # VoxVeritas - Storytelling Website
 
-# LUXE - Luxury Storytelling Website
-
 A sophisticated, high-end blog and storytelling platform designed with elegance and exclusivity in mind. This website embodies the luxury aesthetic of premium brands like Emmanuelle Silk & Ishq Villas, featuring immersive storytelling experiences and curated content.
 
 ## 🌟 Features
