@@ -15,7 +15,6 @@ A sophisticated, high-end nature blog and storytelling platform designed with el
 - **Nature Wonders**: Mountains, Forests, Oceans, and diverse landscapes
 - **About Section**: Mission, values, and environmental storytelling vision
 - **Stories Section**: Adventure, Mystery, Romance, and nature narratives
-- **Blogs Section**: Environmental science, conservation, and nature insights
 - **Contact Section**: Quick access to essential information and social media
 
 ### Interactive Features
@@ -97,11 +96,7 @@ The website is fully responsive and optimized for:
 - Featured nature story with larger display
 - Interactive "Explore" buttons
 
-### Nature Categories
-- Two main content areas: Landscapes and Ecosystems
-- Interactive category cards with hover effects
-- Subcategory lists with elegant styling
-- Icon-based visual hierarchy
+
 
 ### About Section
 - Mission statement and environmental values
@@ -111,11 +106,10 @@ The website is fully responsive and optimized for:
 
 
 
-### Stories & Blogs
+### Stories Section
 - Featured nature stories with adventure, mystery, and romance themes
-- Environmental science and conservation blog articles
 - Professional author information and publication dates
-- Interactive "Read More" and "Read Article" buttons
+- Interactive "Read More" buttons
 
 ### Newsletter & Contact
 - Elegant newsletter signup form
