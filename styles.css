@@ -790,3 +790,74 @@ p {
         padding-right: 1rem;
     }
 }
+
+/* Story Modal */
+.story-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    z-index: 2000;
+}
+
+.story-modal.open {
+    display: block;
+}
+
+.story-modal-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(4px);
+}
+
+.story-modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(900px, 90vw);
+    max-height: 85vh;
+    background: var(--color-white);
+    box-shadow: var(--shadow-hover);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    width: 38px;
+    height: 38px;
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--color-text-light);
+}
+
+.story-modal-content {
+    padding: 2rem;
+    overflow: auto;
+}
+
+.story-modal-content h2 {
+    margin-bottom: 1rem;
+    color: var(--color-black);
+}
+
+.story-modal-body {
+    white-space: pre-wrap;
+    color: var(--color-text);
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .story-modal-dialog {
+        width: 94vw;
+        max-height: 90vh;
+    }
+    .story-modal-content { padding: 1.25rem; }
+}
